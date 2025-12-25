@@ -42,3 +42,7 @@ ol {
 .prose img {
 	@apply w-full;
 }
+
+.noprose img {
+	@apply w-auto;
+}
