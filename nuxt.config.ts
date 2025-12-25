@@ -3,29 +3,28 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
 	compatibilityDate: "2025-07-15",
 	devtools: { enabled: true },
-	modules: ["@nuxt/content", "@nuxt/icon", "nuxt-shiki", "@nuxtjs/color-mode"],
 
-	css: ["~/assets/main.css"],
+	modules: ["@nuxt/content", "@nuxt/hints", "@nuxt/image", "nuxt-shiki", "@nuxtjs/color-mode", "@nuxtjs/seo"],
 
-	app: {
-		pageTransition: { name: "page", mode: "out-in" },
-	},
-
+	css: ["~/assets/tailwind.css", "~/assets/main.css"],
 	vite: {
 		plugins: [tailwindcss()],
 	},
+	app: {
+		head: {
+			link: [
+				{
+					rel: "icon",
+					type: "image/x-icon",
+					href: "/favicon.gif",
+				},
+			],
+		},
+	},
 
 	content: {
-		build: {
-			markdown: {
-				highlight: false,
-				toc: {
-					depth: 4,
-				},
-			},
-		},
-		preview: {
-			api: "https://api.nuxt.studio",
+		renderer: {
+			anchorLinks: { h2: false, h3: false, h4: false },
 		},
 	},
 	colorMode: {
@@ -37,5 +36,11 @@ export default defineNuxtConfig({
 			light: "min-light",
 			dark: "ayu-dark",
 		},
+	},
+	site: {
+		url: "https://pinkline.s22y.moe",
+		name: "PinkLine",
+		description: "基于 Nuxt 制作的博客模版",
+		defaultLocale: "zh-CN",
 	},
 });

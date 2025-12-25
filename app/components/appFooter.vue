@@ -1,13 +1,8 @@
 <template>
-	<div class="text-sm">
-		<division />
-		<div class="text-default-1 flex justify-between p-4 max-sm:flex-col sm:items-center">
-			<div>
-				<p>Copyright © 2025 | All rights reserved.</p>
-			</div>
-			<div>
-				<theme />
-			</div>
-		</div>
+	<div class="mx-auto flex w-163 items-center justify-between text-sm text-gray-500 max-md:w-screen max-md:px-4">
+		<span>&copy; 2025 PinkLine. All rights reserved.</span>
+		<ThemeSwitch />
 	</div>
 </template>
+
+<script lang="ts" setup></script>

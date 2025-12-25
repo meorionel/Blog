@@ -1,4 +1,4 @@
-node_modules
-dist
-.output
-*.min.js
+# 忽略目录
+node_modules/
+dist/
+build/

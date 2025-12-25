@@ -1,6 +1,6 @@
 <template>
-	<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-		<g fill="#6B7281">
+	<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 16 16">
+		<g fill="currentColor">
 			<path
 				d="m8 9.076l.085-.107a.751.751 0 1 0-1.171-.937L5.438 9.877L5.03 9.47a.747.747 0 0 0-1.06 0a.75.75 0 0 0 0 1.06l.407.408l.593.592a.75.75 0 0 0 1.116-.061l.522-.654h.001z"
 			/>

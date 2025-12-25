@@ -13,7 +13,7 @@ const watchThemeChange = () => {
 		if (!isComponentMounted || !utterancesIframe) return;
 
 		const isDark = document.documentElement.classList.contains("dark");
-		const theme = isDark ? "github-dark" : "github-light";
+		const theme = isDark ? "photon-dark" : "github-light";
 
 		utterancesIframe.contentWindow.postMessage({ type: "set-theme", theme }, "https://utteranc.es");
 	});
@@ -63,7 +63,7 @@ onMounted(() => {
 		isComponentMounted = true;
 
 		const isDark = document.documentElement.classList.contains("dark");
-		const initialTheme = isDark ? "github-dark" : "github-light";
+		const initialTheme = isDark ? "photon-dark" : "github-light";
 
 		const script = document.createElement("script");
 		script.src = "https://utteranc.es/client.js";
@@ -83,3 +83,9 @@ onUnmounted(() => {
 	isComponentMounted = false;
 });
 </script>
+
+<style scoped>
+.btn-primary {
+    background-color: #ebbcba;
+}
+</style>

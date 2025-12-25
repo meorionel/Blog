@@ -1,42 +1,23 @@
-/* @:mport url("https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Medium/result.css");
-@import url("https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Regular/result.css"); */
-@import "./content-enhancer.css";
-@import "./utilities.css";
-@import "tailwindcss";
-@import "tailwind-scrollbar-hide/v4";
-@custom-variant dark (&:where(.dark, .dark *));
-@theme {
-	--color-pinkline-50: oklch(0.97 0.02 21.2);
-	--color-pinkline-100: oklch(0.92 0.04 21.2);
-	--color-pinkline-200: oklch(0.86 0.06 21.2);
-	--color-pinkline-300: oklch(0.8 0.08 21.2);
-	--color-pinkline-400: oklch(0.74 0.09 21.2);
-	--color-pinkline-500: oklch(0.726 0.089 21.2);
-	--color-pinkline-600: oklch(0.62 0.095 21.2);
-	--color-pinkline-700: oklch(0.54 0.085 21.2);
-	--color-pinkline-800: oklch(0.45 0.07 21.2);
-	--color-pinkline-900: oklch(0.36 0.05 21.2);
-	--color-pinkline-950: oklch(0.28 0.03 21.2);
+@import url("https://cdn.jsdelivr.net/gh/meorionel/SarasaSubcontracting/SarasaUi/SarasaUiSC-Regular/result.css");
+@import url("https://cdn.jsdelivr.net/gh/meorionel/SarasaSubcontracting/SarasaUi/SarasaUiSC-Bold/result.css");
+
+body {
+	font-family: "Sarasa UI SC";
 }
 
 html {
-	/* font-family:'Maple Mono CN'; */
-	@apply scrollbar-hide;
+	scroll-behavior: smooth;
 }
 
-body {
-	@apply bg-default;
+pre,
+code {
+	font-family: "ZSFT443";
 }
 
-html.dark .shiki,
-html.dark .shiki span {
-	color: var(--shiki-dark) !important;
-	background-color: var(--shiki-dark-bg) !important;
-	font-style: var(--shiki-dark-font-style) !important;
-	font-weight: var(--shiki-dark-font-weight) !important;
-	text-decoration: var(--shiki-dark-text-decoration) !important;
-}
-
-::selection {
-	@apply bg-pinkline-300;
+@font-face {
+	font-family: "ZSFT443";
+	src: url("https://fontsapi.zeoseven.com/443/italic.woff2");
+	font-style: italic;
+	font-weight: 100 900;
+	font-display: swap;
 }

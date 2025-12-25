@@ -1,10 +1,8 @@
-// 这个插件是用来添加图片缩放功能的
-
 import { defineNuxtPlugin } from "#app";
 import mediumZoom from "medium-zoom";
 
 export default defineNuxtPlugin((nuxtApp) => {
-	const selector = ".enhancer img";
+	const selector = ".prose img";
 
 	let zoomInstance = mediumZoom(selector, {
 		margin: 24,
