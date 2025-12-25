@@ -1,0 +1,23 @@
+@import url("https://cdn.jsdelivr.net/gh/meorionel/SarasaSubcontracting/SarasaUi/SarasaUiSC-Regular/result.css");
+@import url("https://cdn.jsdelivr.net/gh/meorionel/SarasaSubcontracting/SarasaUi/SarasaUiSC-Bold/result.css");
+
+body {
+	font-family: "Sarasa UI SC";
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+pre,
+code {
+	font-family: "ZSFT443";
+}
+
+@font-face {
+	font-family: "ZSFT443";
+	src: url("https://fontsapi.zeoseven.com/443/italic.woff2");
+	font-style: italic;
+	font-weight: 100 900;
+	font-display: swap;
+}

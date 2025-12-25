@@ -1,0 +1,44 @@
+.prose code {
+	@apply text-rose-dawn bg-rose-main/25 dark:text-rose-main dark:bg-rose-moon/25 rounded-md p-1 font-normal;
+}
+
+.prose pre {
+	@apply bg-transparent py-0;
+}
+
+.prose pre code {
+	@apply bg-transparent dark:bg-transparent;
+}
+
+.prose blockquote {
+	@apply border-s-rose-moon/45 dark:border-rose-main/95;
+}
+
+.prose ul,
+ol {
+	@apply marker:text-rose-moon/45 dark:marker:text-rose-main/95;
+}
+
+.prose hr {
+	@apply border-(--tw-prose-hr) dark:border-(--tw-prose-hr)/10;
+}
+
+.prose thead {
+	@apply border-b-(--tw-prose-th-borders) dark:border-b-(--tw-prose-th-borders)/25;
+}
+
+.prose tr {
+	@apply border-b-(--tw-prose-td-borders) dark:border-b-(--tw-prose-td-borders)/10;
+}
+
+.prose h1, h2, h3, h4, h5 {
+	@apply font-bold font-[Sarasa_UI_SC_Bold];
+}
+
+.prose strong {
+	@apply font-bold font-[Sarasa_UI_SC_Bold];
+}
+
+.prose img {
+	@apply w-full;
+}
