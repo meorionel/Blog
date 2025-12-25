@@ -1,6 +1,10 @@
 <template>
 	<li class="flex items-center gap-4 rounded-xl transition">
-		<NuxtImg :src="props.avatar" :alt="props.avatar" class="size-18 shrink-0 rounded-full m-0" />
+		<div class="size-18">
+			<ClientOnly>
+				<NuxtImg :src="props.avatar" :alt="props.avatar" class="size-18 rounded-full m-0" />
+			</ClientOnly>
+		</div>
 		<div class="flex min-w-0 flex-col">
 			<span class="text-default text-lg font-bold">
 				<slot name="name" mdc-unwrap="p" />
