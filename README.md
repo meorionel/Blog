@@ -1,28 +1,8 @@
 # PinkLine
 
-- 页面
-    - [ ] 首页
-    - [ ] 文章列表
-    - [ ] 文章页
-        - [ ] 表态
-        - [ ] 自定义emoji支持
-        - [ ] 分享
-    - [ ] 项目页
-        - [ ] 表态
-        - [ ] 自定义emoji支持
-    - [ ] 友链页
-    - [ ] 留言板
-        - [ ] 留言
-- 独立功能类
-    - [ ] RSS
-    - [ ] 全局搜索
-    - [ ] 深浅主题
-- 优化
-    - [ ] 响应式布局
-    - [ ] 性能优化
-    - [ ] 代码压缩
-    - [ ] 图片压缩
-    - [ ] 字体压缩
-    - [ ] SEO
-    - [ ] 站点地图
-    - [ ] 社交媒体集成
+欢迎来到 PinkLine. 🎉
+
+PinkLine 是一款基于 Nuxt.js 的个人博客模版, 其快速, 简约, 轻量. 🍂
+
+![Static Badge](https://img.shields.io/badge/Nuxt.js-v4.2.2-%2364D88A?logo=nuxt)
+![Static Badge](https://img.shields.io/badge/tailwindcss-v4.1.18-%23B14A7E?logo=tailwindcss)
