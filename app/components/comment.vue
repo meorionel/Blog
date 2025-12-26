@@ -86,6 +86,6 @@ onUnmounted(() => {
 
 <style scoped>
 .btn-primary {
-    background-color: #ebbcba;
+	background-color: #ebbcba;
 }
 </style>

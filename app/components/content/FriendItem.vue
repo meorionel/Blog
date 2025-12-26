@@ -1,7 +1,7 @@
 <template>
 	<li class="flex items-center gap-4 rounded-xl transition">
 		<div class="size-18">
-			<NuxtImg :src="props.avatar" :alt="props.avatar" class="size-18 rounded-full m-0" />
+			<NuxtImg :src="props.avatar" :alt="props.avatar" class="m-0 size-18 rounded-full" />
 		</div>
 		<div class="flex min-w-0 flex-col">
 			<span class="text-default text-lg font-bold">
@@ -12,7 +12,7 @@
 			</span>
 			<NuxtLink :to="props.url" target="_blank" class="text-default/40 truncate text-sm">
 				{{ props.url }}
-            </NuxtLink>
+			</NuxtLink>
 		</div>
 	</li>
 </template>

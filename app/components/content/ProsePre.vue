@@ -1,6 +1,6 @@
 <template>
 	<div class="group border-default rounded-lg border">
-		<div v-if="filename || language" class="border-default flex items-center justify-between rounded-t-lg border-b bg-gray-200/25 dark:bg-gray-800/25 px-5 py-2">
+		<div v-if="filename || language" class="border-default flex items-center justify-between rounded-t-lg border-b bg-gray-200/25 px-5 py-2 dark:bg-gray-800/25">
 			<code class="text-default! bg-transparent! p-0!">{{ filename || language }}</code>
 			<button
 				@click="copyCode"

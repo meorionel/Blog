@@ -5,7 +5,7 @@
 		>
 			<li v-for="link in props.toc.toc.links" :key="link.id">
 				<NuxtLink :to="`#${link.id}`" class="group flex items-center gap-2">
-					<div class="h-1 w-4 rounded-xl bg-gray-400/50! duration-200 group-hover:bg-gray-500! shrink-0" :class="{ 'bg-gray-500!': activeId === link.id }"></div>
+					<div class="h-1 w-4 shrink-0 rounded-xl bg-gray-400/50! duration-200 group-hover:bg-gray-500!" :class="{ 'bg-gray-500!': activeId === link.id }"></div>
 					<span class="text-sm opacity-0 duration-200 group-hover:opacity-100 max-md:opacity-100" :class="{ 'opacity-100': activeId === link.id }">{{ link.text }}</span>
 				</NuxtLink>
 			</li>
