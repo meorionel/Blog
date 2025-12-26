@@ -42,7 +42,10 @@ h5 {
 .prose strong {
 	@apply font-[Sarasa_UI_SC_Bold] font-bold;
 }
+<<<<<<< HEAD
 
 .prose img {
 	@apply w-full;
 }
+=======
+>>>>>>> upstream/main

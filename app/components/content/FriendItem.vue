@@ -1,9 +1,13 @@
 <template>
 	<li class="flex items-center gap-4 rounded-xl transition">
 		<div class="size-18">
+<<<<<<< HEAD
 			<ClientOnly>
 				<NuxtImg :src="props.avatar" :alt="props.avatar" class="m-0 size-18 rounded-full" />
 			</ClientOnly>
+=======
+			<NuxtImg :src="props.avatar" :alt="props.avatar" class="m-0 size-18 rounded-full" />
+>>>>>>> upstream/main
 		</div>
 		<div class="flex min-w-0 flex-col">
 			<span class="text-default text-lg font-bold">
