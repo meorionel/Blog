@@ -38,11 +38,3 @@ ol {
 .prose strong {
 	@apply font-bold font-[Sarasa_UI_SC_Bold];
 }
-
-.prose img {
-	@apply w-full;
-}
-
-.noprose img {
-	@apply w-auto;
-}
