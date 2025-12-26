@@ -1,5 +1,5 @@
 <template>
-	<div class="w-163 mx-auto flex items-center justify-between max-md:w-screen max-md:px-4">
+	<div class="mx-auto flex w-163 items-center justify-between max-md:w-screen max-md:px-4">
 		<NuxtImg :src="config.site.favicon" alt="avatar" width="32" height="32" />
 		<ul class="flex items-center gap-2 text-gray-500" v-if="navigation">
 			<li v-for="(item, index) in navigation" :key="item.path" class="flex items-center gap-2">

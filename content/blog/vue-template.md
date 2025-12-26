@@ -14,9 +14,7 @@ date: 2025-10-28T10:11:32.000Z
 ```html
 <ul>
 	<li v-for="child in item.children" :key="child.path" v-if="!child.isHide">
-		<NuxtLink :to="child.path" class="is-drawer-close:hidden" :class="{ 'menu-active': child.path === route.path }">
-			{{ child.title }}
-		</NuxtLink>
+		<NuxtLink :to="child.path" class="is-drawer-close:hidden" :class="{ 'menu-active': child.path === route.path }"> {{ child.title }} </NuxtLink>
 	</li>
 </ul>
 ```
@@ -29,9 +27,7 @@ date: 2025-10-28T10:11:32.000Z
 <ul>
 	<li v-for="child in item.children" :key="child.path" v-if="!child.isHide">
 		<div v-if="!child.isHide">
-			<NuxtLink :to="child.path" class="is-drawer-close:hidden" :class="{ 'menu-active': child.path === route.path }">
-				{{ child.title }}
-			</NuxtLink>
+			<NuxtLink :to="child.path" class="is-drawer-close:hidden" :class="{ 'menu-active': child.path === route.path }"> {{ child.title }} </NuxtLink>
 		</div>
 	</li>
 </ul>
@@ -45,9 +41,7 @@ date: 2025-10-28T10:11:32.000Z
 <ul>
 	<template v-for="child in item.children" :key="child.path">
 		<li v-if="!child.isHide">
-			<NuxtLink :to="child.path" class="is-drawer-close:hidden" :class="{ 'menu-active': child.path === route.path }">
-				{{ child.title }}
-			</NuxtLink>
+			<NuxtLink :to="child.path" class="is-drawer-close:hidden" :class="{ 'menu-active': child.path === route.path }"> {{ child.title }} </NuxtLink>
 		</li>
 	</template>
 </ul>

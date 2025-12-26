@@ -31,12 +31,16 @@ ol {
 	@apply border-b-(--tw-prose-td-borders) dark:border-b-(--tw-prose-td-borders)/10;
 }
 
-.prose h1, h2, h3, h4, h5 {
-	@apply font-bold font-[Sarasa_UI_SC_Bold];
+.prose h1,
+h2,
+h3,
+h4,
+h5 {
+	@apply font-[Sarasa_UI_SC_Bold] font-bold;
 }
 
 .prose strong {
-	@apply font-bold font-[Sarasa_UI_SC_Bold];
+	@apply font-[Sarasa_UI_SC_Bold] font-bold;
 }
 
 .prose img {

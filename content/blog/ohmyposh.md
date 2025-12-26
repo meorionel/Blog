@@ -72,10 +72,10 @@ curl -s https://ohmyposh.dev/install.sh | bash -s
 - alignment: 位置 只能填写 `left` 或 `right`
 - type: 必须保留的选项 填写 `prompt` 或 `rprompt` (填写 rprompt 时块会显示在右边)
 - segments: 段落, 一个块中又有多个段落.
-  - foreground: 调色盘, 使用 `p:` + 上面你预设的颜色名即可
-  - style: 样式 可填写 powerline、plain、diamond、accordion
-  - template: 显示内容的模版
-  - type: 类型 可填写多种类型, 因为太多了, 不是一句两句能说明白的, 具体查看[文档](https://ohmyposh.dev/docs/segments/system/text)
+    - foreground: 调色盘, 使用 `p:` + 上面你预设的颜色名即可
+    - style: 样式 可填写 powerline、plain、diamond、accordion
+    - template: 显示内容的模版
+    - type: 类型 可填写多种类型, 因为太多了, 不是一句两句能说明白的, 具体查看[文档](https://ohmyposh.dev/docs/segments/system/text)
 
 ```json
 {
@@ -88,7 +88,7 @@ curl -s https://ohmyposh.dev/install.sh | bash -s
 			"template": "{{ .UserName }}@{{ .HostName }}",
 			"type": "text"
 		},
-    {
+		{
 			"foreground": "p:violet",
 			"style": "plain",
 			"template": " \uf178",
@@ -102,26 +102,26 @@ curl -s https://ohmyposh.dev/install.sh | bash -s
 
 下面是通用的变量, 根据段内的 `type` 不同, 变量也有更多的选择.
 
-| 名称 | 类型 | 描述 |
-|------|------|------|
-| `.Root` | `boolean` | 当前用户是否为 root/admin |
-| `.PWD` | `string` | 当前工作目录 ($HOME 目录显示为 ~) |
-| `.AbsolutePWD` | `string` | 当前工作目录 (未修改的原始路径) |
-| `.PSWD` | `string` | PowerShell 中当前的非文件系统工作目录 |
-| `.Folder` | `string` | 当前工作文件夹 |
-| `.Shell` | `string` | 当前 shell 名称 |
-| `.ShellVersion` | `string` | 当前 shell 版本 |
-| `.SHLVL` | `int` | 当前 shell 级别 |
-| `.UserName` | `string` | 当前用户名称 |
-| `.HostName` | `string` | 主机名 |
-| `.Code` | `int` | 最后一个退出代码 |
-| `.Jobs` | `int` | 后台作业的数量 (仅 zsh、PowerShell 和 Nushell 可用) |
-| `.OS` | `string` | 操作系统 |
-| `.WSL` | `boolean` | 是否在 WSL 中 |
-| `.Templates` | `string` | 模板结果 |
-| `.PromptCount` | `int` | 提示符计数器，每次调用提示符时递增 1 |
-| `.Version` | `string` | Oh My Posh 版本 |
-| `.Segment` | `Segment` | 当前片段的元数据 |
+| 名称            | 类型      | 描述                                                |
+| --------------- | --------- | --------------------------------------------------- |
+| `.Root`         | `boolean` | 当前用户是否为 root/admin                           |
+| `.PWD`          | `string`  | 当前工作目录 ($HOME 目录显示为 ~)                   |
+| `.AbsolutePWD`  | `string`  | 当前工作目录 (未修改的原始路径)                     |
+| `.PSWD`         | `string`  | PowerShell 中当前的非文件系统工作目录               |
+| `.Folder`       | `string`  | 当前工作文件夹                                      |
+| `.Shell`        | `string`  | 当前 shell 名称                                     |
+| `.ShellVersion` | `string`  | 当前 shell 版本                                     |
+| `.SHLVL`        | `int`     | 当前 shell 级别                                     |
+| `.UserName`     | `string`  | 当前用户名称                                        |
+| `.HostName`     | `string`  | 主机名                                              |
+| `.Code`         | `int`     | 最后一个退出代码                                    |
+| `.Jobs`         | `int`     | 后台作业的数量 (仅 zsh、PowerShell 和 Nushell 可用) |
+| `.OS`           | `string`  | 操作系统                                            |
+| `.WSL`          | `boolean` | 是否在 WSL 中                                       |
+| `.Templates`    | `string`  | 模板结果                                            |
+| `.PromptCount`  | `int`     | 提示符计数器，每次调用提示符时递增 1                |
+| `.Version`      | `string`  | Oh My Posh 版本                                     |
+| `.Segment`      | `Segment` | 当前片段的元数据                                    |
 
 模版中的 `\uf178` 是一个 Unicode 转义序列, 会被渲染成一个图标, 你可以在[这里](https://www.nerdfonts.com/cheat-sheet)搜索你想要的图标, 把鼠标放到图标上点击 **UTF** 就可以复制对于的代码.
 
@@ -167,10 +167,10 @@ curl -s https://ohmyposh.dev/install.sh | bash -s
 
 ```json
 {
-  "foreground": "p:rose",
-  "properties": {
-	"branch_icon": "\ue725 ",
-  	"fetch_status": true,
+	"foreground": "p:rose",
+	"properties": {
+		"branch_icon": "\ue725 ",
+		"fetch_status": true,
 		"fetch_upstream_icon": true,
 		"fetch_worktree_count": true
 	},
@@ -193,10 +193,10 @@ curl -s https://ohmyposh.dev/install.sh | bash -s
 			"foreground": "p:violet",
 			"leading_diamond": "<#DCD7FC>{</>",
 			"properties": {
-				"folder_icon": "\uf07b",           // 文件夹图标 (Font Awesome)
-		    "folder_separator_icon": " \uebcb ", // 路径分隔符图标
-		    "home_icon": "home",               // 家目录显示为 "home"
-		    "style": "agnoster_full"           // 使用 agnoster 完整路径样式
+				"folder_icon": "\uf07b", // 文件夹图标 (Font Awesome)
+				"folder_separator_icon": " \uebcb ", // 路径分隔符图标
+				"home_icon": "home", // 家目录显示为 "home"
+				"style": "agnoster_full" // 使用 agnoster 完整路径样式
 			},
 			"style": "diamond",
 			"template": " \ue5ff {{ .Path }} ",
@@ -285,8 +285,3 @@ curl -s https://ohmyposh.dev/install.sh | bash -s
 	]
 }
 ```
-
-
-
-
-
