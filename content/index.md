@@ -1,6 +1,6 @@
 ---
-title: PinkLine
-description: PinkLine 是一款基于 Nuxt.js 的个人博客模版, 其快速, 简约, 轻量.
+title: hhhi~
+description: 晚上好
 classify: pages
 tags: ["pages"]
 date: 2025-12-17T15:45:57+08:00
@@ -8,11 +8,81 @@ isPage: true
 order: 0
 ---
 
-# PinkLine
+::hero
+#title
+hhhi! I'm Meorion ฅ^•ﻌ•^ฅ
 
-欢迎来到 PinkLine. 🎉
+#location
+GuangXi, GuiLin / LaiBin
 
-PinkLine 是一款基于 Nuxt.js 的个人博客模版, 其快速, 简约, 轻量. 🍂
+#description
+我喜欢用 `Nuxt` 做全栈项目, 我是个全栈工程师!(大概).
 
-![Static Badge](https://img.shields.io/badge/Nuxt.js-v4.2.2-%2364D88A?logo=nuxt)
-![Static Badge](https://img.shields.io/badge/tailwindcss-v4.1.18-%23B14A7E?logo=tailwindcss)
+最近我在学习 `Java`, 因为我需要用它做毕业设计.
+
+这里是中文博客, 如果你想看英文版本, 请点击[这里](https://s22y.moe).
+::
+
+<br />
+
+::ContactList
+::ContactItem{type="github" url="https://github.com/meorionel"}
+#name
+meorionel
+::
+::ContactItem{type="X" url="https://x.com/meorionel"}
+#name
+meorionel
+::
+::ContactItem{type="discord" username="meorionel"}
+#name
+meorionel
+::
+::ContactItem{type="email" username="therese.sjdyka@gmail.com"}
+#name
+therese.sjdyka@gmail.com
+::
+::
+
+<br />
+
+## Coder
+
+::Skill
+::
+
+::GithubMap
+::
+
+::ProjectList
+::ProjectItem{url="https://github.com/meorionel/PinkLine"}
+#name
+PinkLine
+#description
+一个基于 Nuxt.js 的个人博客模版, 其快速, 简约, 轻量. 🍂
+::
+::ProjectItem{url="https://github.com/meorionel/GetDiscordEmoticon"}
+#name
+GetDiscordEmoticon
+#description
+这个工具可以帮助你批量下载 Discord 上的表情.
+::
+::ProjectItem{url="https://github.com/meorionel/Netease_analyze"}
+#name
+Netease_analyze
+#description
+这是一个网易云的无损解析工具
+::
+::ProjectItem{url="https://github.com/meorionel/Minecraft3DHead"}
+#name
+Minecraft3DHead
+#description
+这是一个可以获取我的世界玩家 3d 或者 2d 头颅图片的 api.
+::
+::ProjectItem{url="https://github.com/meorionel/nuxt-oneko"}
+#name
+nuxt-oneko
+#description
+添加一个可爱的小猫到你的nuxt网站中.
+::
+::

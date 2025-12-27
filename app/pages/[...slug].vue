@@ -1,7 +1,7 @@
 <template>
 	<div class="mx-auto flex w-screen max-md:flex-col-reverse max-md:px-4">
 		<div class="h-full min-h-screen grow max-md:min-h-0"></div>
-		<div class="w-163 shrink-0 max-md:w-full">
+		<div class="w-172 shrink-0 max-md:w-full">
 			<template v-if="page">
 				<template v-if="route.path.includes('/blog/')">
 					<ProseHeader :meta="ProseMeta" />

@@ -13,6 +13,7 @@
 	"dependencies": {
 		"@nuxt/content": "3.9.0",
 		"@nuxt/hints": "1.0.0-alpha.3",
+		"@nuxt/icon": "2.1.1",
 		"@nuxt/image": "2.0.0",
 		"@nuxtjs/color-mode": "4.0.0",
 		"@nuxtjs/seo": "3.3.0",
@@ -23,6 +24,7 @@
 		"better-sqlite3": "^12.5.0",
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
+		"date-fns": "^4.1.0",
 		"lucide-vue-next": "^0.562.0",
 		"medium-zoom": "^1.1.0",
 		"nuxt": "^4.2.2",
