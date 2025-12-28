@@ -1,16 +1,16 @@
 <template>
 	<div class="flex flex-col gap-3 text-4xl">
 		<ClientOnly>
-			<div class="grid grid-cols-13 gap-3 max-sm:flex flex-wrap">
-                <template v-for="item in icon.frontEndSkills" :key="item">
-                    <Icon :name="item" />
-                </template>
-            </div>
-            <div class="grid grid-cols-13 gap-3 max-sm:flex flex-wrap">
-                <template v-for="item in icon.backEndSkills" :key="item">
-                    <Icon :name="item" />
-                </template>
-            </div>
+			<div class="grid grid-cols-13 flex-wrap gap-3 max-sm:flex">
+				<template v-for="item in icon.frontEndSkills" :key="item">
+					<Icon :name="item" />
+				</template>
+			</div>
+			<div class="grid grid-cols-13 flex-wrap gap-3 max-sm:flex">
+				<template v-for="item in icon.backEndSkills" :key="item">
+					<Icon :name="item" />
+				</template>
+			</div>
 		</ClientOnly>
 	</div>
 </template>

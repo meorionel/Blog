@@ -21,7 +21,7 @@ const props = defineProps({ type: { type: String, default: "x" }, url: { type: S
 
 const icon = computed(() => {
 	return {
-        github: "streamline-logos:github-logo-2-block",
+		github: "streamline-logos:github-logo-2-block",
 		X: "streamline-logos:x-twitter-logo-block",
 		discord: "streamline-logos:discord-logo-2-block",
 		email: "streamline-logos:email-logo-block",
