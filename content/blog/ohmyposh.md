@@ -11,7 +11,7 @@ date: 2025-10-21T08:16:11+08:00
 
 于是我花了半个下午根据文档写了个主题.
 
-![posh theme](https://image.s22y.moe/image/ohmyposh/1.webp)
+![posh theme](https://image.meorion.moe/image/ohmyposh/1.webp)
 
 ---
 
@@ -209,7 +209,7 @@ curl -s https://ohmyposh.dev/install.sh | bash -s
 
 ---
 
-![](https://image.s22y.moe/image/ohmyposh/2.webp)
+![](https://image.meorion.moe/image/ohmyposh/2.webp)
 
 完整的代码如下:
 

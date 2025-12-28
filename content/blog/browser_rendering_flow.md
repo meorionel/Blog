@@ -7,7 +7,7 @@ date: 2025-04-12T22:48:52+08:00
 
 # 加载与构建
 
-![load_flow](https://image.s22y.moe/image/browser_rendering_flow/load_flow.webp)
+![load_flow](https://image.meorion.moe/image/browser_rendering_flow/load_flow.webp)
 
 当你在浏览器上访问一个网站, 浏览器会先发起一个请求, 获取 html 文档.
 

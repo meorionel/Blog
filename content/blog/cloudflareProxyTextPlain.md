@@ -11,7 +11,7 @@ date: 2025-05-27T23:24:25+08:00
 
 检查发现响应头的 Content-Type 居然是 `text/plain`, 正常应该是 `text/css`.
 
-![1](https://image.s22y.moe/image/cloudflareProxyTextPlain/24381748353530_.pic.jpg)
+![1](https://image.meorion.moe/image/cloudflareProxyTextPlain/24381748353530_.pic.jpg)
 
 本来以为是 nginx 的问题, 按照谷歌上的方法, 搞了半天 `mime.types` 还是不行.
 
@@ -21,9 +21,9 @@ date: 2025-05-27T23:24:25+08:00
 
 又问了下 ai, ai 让我添加一条规则绕过缓存, 配置了一下果然好了.
 
-![3](https://image.s22y.moe/image/cloudflareProxyTextPlain/3.webp)
+![3](https://image.meorion.moe/image/cloudflareProxyTextPlain/3.webp)
 
-![3](https://image.s22y.moe/image/cloudflareProxyTextPlain/2.png)
+![3](https://image.meorion.moe/image/cloudflareProxyTextPlain/2.png)
 
 ---
 
@@ -41,10 +41,10 @@ date: 2025-05-27T23:24:25+08:00
 
 但是这个功能不支持免费用户使用(悲).
 
-![4](https://image.s22y.moe/image/cloudflareProxyTextPlain/4.webp)
+![4](https://image.meorion.moe/image/cloudflareProxyTextPlain/4.webp)
 
 ---
 
 但是在这过程中我发现一个奇怪的问题, 我使用curl请求的响应头是正常的, 但是浏览器却是异常的.
 
-![1](https://image.s22y.moe/image/cloudflareProxyTextPlain/1.jpg)
+![1](https://image.meorion.moe/image/cloudflareProxyTextPlain/1.jpg)

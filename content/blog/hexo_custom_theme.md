@@ -52,7 +52,7 @@ hexo c; hexo g; hexo s
 
 在一串刷屏后你能看见控制台输出了一个链接: `http://localhost:4000/`，在浏览器打开这个链接就能看见Hexo默认的主题了。
 
-![hexo_default_theme](https://image.s22y.moe/image/hexo_custom_theme/hexo_default_theme.webp)
+![hexo_default_theme](https://image.meorion.moe/image/hexo_custom_theme/hexo_default_theme.webp)
 
 这个时候博客的文件目录如下。
 
@@ -100,7 +100,7 @@ categories:
 这是一些正文内容.
 ```
 
-![first_article](https://image.s22y.moe/image/hexo_custom_theme/first_article.webp)
+![first_article](https://image.meorion.moe/image/hexo_custom_theme/first_article.webp)
 
 ## 创建基本的页面
 
@@ -299,7 +299,7 @@ c # themeDemo/layout/_partial/header.ejs
 </html>
 ```
 
-![fundamental_index](https://image.s22y.moe/image/hexo_custom_theme/fundamental_index.webp)![fundamental_about](https://image.s22y.moe/image/hexo_custom_theme/fundamental_about.webp)
+![fundamental_index](https://image.meorion.moe/image/hexo_custom_theme/fundamental_index.webp)![fundamental_about](https://image.meorion.moe/image/hexo_custom_theme/fundamental_about.webp)
 
 > 让我猜猜你现在肯定对于上面的内容很懵，这是正常的，因为让我自己看我也会懵。
 >
@@ -318,7 +318,7 @@ c # themeDemo/layout/_partial/header.ejs
 
 我们可以直接通过`config`去访问站点的配置文件，通过`theme`访问主题的配置文件。
 
-![variable](https://image.s22y.moe/image/hexo_custom_theme/variable.webp)
+![variable](https://image.meorion.moe/image/hexo_custom_theme/variable.webp)
 
 ### 辅助函数
 
@@ -372,7 +372,7 @@ pagination_dir: page
 <% } %>
 ```
 
-![article_list](https://image.s22y.moe/image/hexo_custom_theme/article_list.webp)
+![article_list](https://image.meorion.moe/image/hexo_custom_theme/article_list.webp)
 
 ### 文章详细页
 
@@ -396,7 +396,7 @@ pagination_dir: page
 </div>
 ```
 
-![article](https://image.s22y.moe/image/hexo_custom_theme/article.webp)
+![article](https://image.meorion.moe/image/hexo_custom_theme/article.webp)
 
 ### 添加分类和标签列表
 

@@ -55,7 +55,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 配置 Repository secrets, 这个东西就相当于是仓库的环境变量, 你就当环境变量去配置就好了.
 
-![1](https://image.s22y.moe/image/github_action/2.webp)
+![1](https://image.meorion.moe/image/github_action/2.webp)
 
 这里有三个必填的, 当然, 根据你工作流的不同需要进行调整.
 
@@ -212,6 +212,6 @@ deploy:
 
 现在你已经不需要再做什么其他的工作了, 这样你就能全身心投入到代码的编写中而不是手动推送部署项目了.
 
-![actions](https://image.s22y.moe/image/github_action/1.webp)
+![actions](https://image.meorion.moe/image/github_action/1.webp)
 
 下面的报错全是泪, 跟GPT拉扯了一个早上才摸索出正确的做法.
