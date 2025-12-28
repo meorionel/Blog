@@ -53,7 +53,7 @@ const ProseToc = computed(() => {
 });
 
 useSeoMeta({
-	title: `${page.value?.title || config.site.name} - ${config.site.name}`,
+	title: `${page.value?.title || config.site.name}`,
 	ogTitle: `${page.value?.title || config.site.name}`,
 	description: `${page.value?.description || config.site.description}`,
 	ogDescription: `${page.value?.description || config.site.description}`,
