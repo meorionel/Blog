@@ -4,7 +4,7 @@ export default defineNuxtConfig({
 	compatibilityDate: "2025-07-15",
 	devtools: { enabled: true },
 
-	modules: ["@nuxt/content", "@nuxt/hints", "@nuxt/image", "nuxt-shiki", "@nuxtjs/color-mode", "@nuxtjs/seo", "@nuxt/icon"],
+	modules: ["@nuxt/content", "@nuxt/hints", "@nuxt/image", "nuxt-shiki", "@nuxtjs/color-mode", "@nuxtjs/seo", "@nuxt/icon", "nuxt-oneko"],
 
 	css: ["~/assets/tailwind.css", "~/assets/main.css"],
 	vite: {
