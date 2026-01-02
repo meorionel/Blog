@@ -1,6 +1,6 @@
 <template>
 	<li class="flex items-center gap-4 rounded-xl transition">
-		<div class="size-18">
+		<div class="size-18 shrink-0">
 			<NuxtImg :src="props.avatar" :alt="props.avatar" class="m-0 size-18 rounded-full" />
 		</div>
 		<div class="flex min-w-0 flex-col">

@@ -9,9 +9,9 @@ order: 2
 ---
 
 ::FriendList
-::FriendItem{avatar="https://gravatar.s22y.moe/avatar/me" url="/"}
+::FriendItem{avatar="https://gravatar.meorion.moe/avatar/me" url="/"}
 #name
-Sooooooooooooooooootheby
+meorion
 #bio
 I was going to go get some fries on the pier.🍟
 ::
