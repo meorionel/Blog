@@ -68,7 +68,7 @@ lynn
 ```json [这是我的信息]
 {
 	"name": "Meorion",
-	"url": "s22y.moe",
+	"url": "blog.meorion.moe",
 	"bio": "去码头整点薯条🍟",
 	"avatar": "https://gravatar.s22y.moe/avatar/me"
 }
