@@ -85,6 +85,10 @@ const backEndSkills = [
 		name: "mysql",
 		isDark: true,
 	},
+	{
+		name: "rust",
+		isDark: false,
+	}
 ];
 
 const icon = computed(() => {
