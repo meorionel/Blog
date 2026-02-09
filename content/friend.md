@@ -45,6 +45,12 @@ lynn
 #bio
 幕天席地, 纵意所如
 ::
+::FriendItem{avatar="https://mahiro.uk/content/nekoxun.jpg" url="https://mahiro.uk/"}
+#name
+Smirnova Oyama
+#bio
+一个本科计算机学生
+::
 ::
 
 这里是本站的友链页面, 记录着一些在互联网角落里认真生活、认真写字、认真敲代码的朋友们
@@ -70,7 +76,7 @@ lynn
 	"name": "Meorion",
 	"url": "blog.meorion.moe",
 	"bio": "去码头整点薯条🍟",
-	"avatar": "https://gravatar.s22y.moe/avatar/me"
+	"avatar": "https://gravatar.meorion.moe/avatar/me"
 }
 ```
 
