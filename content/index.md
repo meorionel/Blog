@@ -18,9 +18,9 @@ GuangXi, GuiLin / LaiBin
 #description
 我喜欢用 `Nuxt` 做全栈项目, 我是个全栈工程师!(大概).
 
-最近我在学习 `Java`, 因为我需要用它做毕业设计.
+我最近在学习 `Next.js`, 说实话, 比起 `react`, 我更喜欢 `vue`.
 
-这里是中文博客, 如果你想看英文版本, 请点击[这里](https://s22y.moe).
+这里是我的博客, 如果你想看看我的主页, 请点击[这里](https://meorion.moe), 这是一个 crt 风格的网站.
 ::
 
 <br />
