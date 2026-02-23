@@ -4,9 +4,9 @@ export default defineAppConfig({
 		avatar: "https://gravatar.meorion.moe/avatar/me",
 	},
 	site: {
-		url: "https://pinkline.s22y.moe",
+		url: "https://blog.meorion.moe",
 		favicon: "/favicon.gif",
-		name: "PinkLine",
+		name: "Meorion's Blog",
 		description: "基于 Nuxt 制作的博客模版",
 		defaultLocale: "zh-CN",
 	},
@@ -14,10 +14,10 @@ export default defineAppConfig({
 		comment: true, // 是否启用评论区
 	},
 	comment: {
-		repo: "meorionel/PinkLine", // 这里要填你的博客的github地址
+		repo: "meorionel/Blog", // 这里要填你的博客的github地址
 		issue_term: "title", // 可选项: pathname, url, title, og:title, [ENTER ISSUE NUMBER HERE], [ENTER TERM HERE]
 	},
 	rss: {
-		link: "blog.s22y.moe",
+		link: "blog.meorion.moe",
 	},
 });

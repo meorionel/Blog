@@ -38,8 +38,8 @@ export default defineNuxtConfig({
 		},
 	},
 	site: {
-		url: "https://pinkline.s22y.moe",
-		name: "PinkLine",
+		url: "https://blog.meorion.moe",
+		name: "Meorion's Blog",
 		description: "基于 Nuxt 制作的博客模版",
 		defaultLocale: "zh-CN",
 	},
