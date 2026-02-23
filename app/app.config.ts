@@ -1,7 +1,7 @@
 export default defineAppConfig({
 	info: {
 		author: "Alice Clodia",
-		avatar: "https://gravatar.s22y.moe/avatar/me",
+		avatar: "https://gravatar.meorion.moe/avatar/me",
 	},
 	site: {
 		url: "https://pinkline.s22y.moe",
