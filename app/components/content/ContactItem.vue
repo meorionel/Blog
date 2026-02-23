@@ -1,6 +1,8 @@
 <template>
-	<div class="not-prose flex items-center px-3 py-1 max-sm:px-0">
-		<Icon :name="icon" class="mr-2 text-5xl" v-if="icon" />
+	<div class="not-prose flex items-center py-1 max-sm:px-0 gap-2">
+		<div class="p-2 flex items-center justify-center">
+			<Icon :name="icon" class="text-4xl" v-if="icon" />
+		</div>
 		<div class="w-full">
 			<p class="text-lg font-bold">{{ props.type }}</p>
 			<p class="text-sm opacity-75">@<slot name="name" mdc-unwrap="p" /></p>
@@ -21,10 +23,10 @@ const props = defineProps({ type: { type: String, default: "x" }, url: { type: S
 
 const icon = computed(() => {
 	return {
-		github: "streamline-logos:github-logo-2-block",
-		X: "streamline-logos:x-twitter-logo-block",
-		discord: "streamline-logos:discord-logo-2-block",
-		email: "streamline-logos:email-logo-block",
+		github: "line-md:github",
+		X: "line-md:twitter-x",
+		discord: "line-md:discord",
+		email: "line-md:email",
 	}[props.type];
 });
 
