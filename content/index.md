@@ -85,4 +85,10 @@ nuxt-oneko
 #description
 添加一个可爱的小猫到你的nuxt网站中.
 ::
+::ProjectItem{url="https://ami.meorion.moe/"}
+#name
+Am I Okay
+#description
+在这个网站, 你可以看到我正在做什么.
+::
 ::
