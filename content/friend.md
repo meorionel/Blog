@@ -57,6 +57,12 @@ cos
 #bio
 FE / ACG / 手工 / 深色模式强迫症 / INFP / 兴趣广泛养两只猫的老宅女 / remote
 ::
+::FriendItem{avatar="https://www.almango.cn/image/avatar.png" url="https://blog.almango.cn/"}
+#name
+Almango
+#bio
+天真永不消逝，浪漫至死不渝
+::
 ::
 
 这里是本站的友链页面, 记录着一些在互联网角落里认真生活、认真写字、认真敲代码的朋友们
