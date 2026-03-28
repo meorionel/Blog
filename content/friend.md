@@ -63,6 +63,12 @@ Almango
 #bio
 天真永不消逝，浪漫至死不渝
 ::
+::FriendItem{avatar="https://www.xnmoe.com/assets/images/pfp.png" url="https://xnmoe.com"}
+#name
+NNNullptr南
+#bio
+数学生的古早风格个人站
+::
 ::
 
 这里是本站的友链页面, 记录着一些在互联网角落里认真生活、认真写字、认真敲代码的朋友们
