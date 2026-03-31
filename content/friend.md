@@ -69,6 +69,12 @@ NNNullptr南
 #bio
 数学生的古早风格个人站
 ::
+::FriendItem{avatar="http://777703.xyz/wp-content/uploads/2026/03/avatar.jpg" url="https://777703.xyz/"}
+#name
+NPCの个人博客
+#bio
+平平无奇的社畜记录博客
+::
 ::
 
 这里是本站的友链页面, 记录着一些在互联网角落里认真生活、认真写字、认真敲代码的朋友们
