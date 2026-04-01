@@ -69,7 +69,7 @@ NNNullptr南
 #bio
 数学生的古早风格个人站
 ::
-::FriendItem{avatar="http://777703.xyz/wp-content/uploads/2026/03/avatar.jpg" url="https://777703.xyz/"}
+::FriendItem{avatar="https://777703.xyz/wp-content/uploads/2026/03/avatar.jpg" url="https://777703.xyz/"}
 #name
 NPCの个人博客
 #bio
